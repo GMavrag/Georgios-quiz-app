@@ -1,0 +1,60 @@
+:root {
+  /* Color Variables */
+
+  --color-nemo: #ff4a11;
+  --color-granite: #252629;
+  --color-water-10: #f3f5f9;
+  --color-foam: #14161549;
+}
+*,
+*::before,
+*::after/*  {
+  box-sizing: border-box;
+} */
+body {
+  margin: 0;
+  font-family: system-ui;
+
+  background-color: var(--color-foam);
+}
+
+h1 {
+  font-size: 4rem;
+  width: 70%;
+  margin: 40% auto;
+  color: var(--color-nemo);
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.my1stcard {
+  background-color: aqua;
+  padding: 90px;
+
+  width: 40%;
+  position: relative;
+  border: 10px solid #ccc;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.bookmark1 {
+  width: 4em;
+  position: absolute;
+  top: 10px;
+  right: 7px;
+}
+div {
+  position: relative;
+  top: 100px;
+  left: 10px;
+}
+.jpgbookmark {
+  width: 60%;
+}
